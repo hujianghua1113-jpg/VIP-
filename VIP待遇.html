@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP专属通道</title>
+    <style>
+        body {
+            font-family: "微软雅黑", sans-serif;
+            background-color: #f8f0f7;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff4da6;
+        }
+        .step {
+            text-align: left;
+            margin: 15px 0;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        .tip {
+            color: #ff4da6;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        #qr-code {
+            width: 80%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>✨ 想享受专属VIP待遇的宝宝看这里 ✨</h2>
+        
+        <!-- 把你的图片放在和index.html同一个文件夹，文件名改成vip-qr.jpg -->
+        <img id="qr-code" src="vip-qr.jpg" alt="VIP扫码入口">
+
+        <div class="step">
+            1️⃣ 长按上面的图片，保存到手机相册<br>
+            2️⃣ 打开微信，点击右上角【扫一扫】<br>
+            3️⃣ 点击右上角【相册】，选择刚保存的图片扫码
+        </div>
+
+        <p class="tip">⚠️ 这是VIP门槛费，付完请把付款记录发给我，解锁专属服务！</p>
+        <p>✈️ 全程私密，放心沟通 ✈️</p>
+    </div>
+</body>
+</html>
